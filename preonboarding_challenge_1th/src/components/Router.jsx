@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 
-const Router = () => {
-  return <div></div>;
+const Router = ({ children }) => {
+  return <>{children}</>;
 };
 
 export default Router;
